@@ -1,0 +1,579 @@
+nav{
+    position: fixed;  
+    width: 100% ;
+    z-index: 1000;
+    box-shadow:  0px 0px 10px rgb(146, 146, 146);
+}
+.navbar-wrap{
+    width: 100%;
+    height: 36px;
+    background-color:  rgb(161, 113, 101);
+    display: flex;
+    justify-content:flex-end;   
+    align-items: center;
+}
+.navbar-item{
+    display: flex;
+    color: white;
+    font-size: 15px;
+    font-family: 微軟正黑體;
+    margin-right: 48px;
+    text-align: center;
+    align-items: center;
+    /* background-color: rgb(173, 12, 12); */
+}
+.navbar-item p{
+   padding-right: 24px;
+}
+.Sign-in button{
+    border: 1.5px solid white;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+ }
+ .menu-wrap{
+     background-color:white;
+     width: 100%;
+     height: 80px;
+     display: flex;
+     align-items: center;
+     justify-content:space-between;
+ }
+ .menu-item{
+    display: flex;
+    align-items: center;
+ }
+ .menu-wrap img{
+     height: 70px;
+     padding-left: 50px;
+     padding-right: 30px;
+ }
+ .menu-wrap a{
+    text-decoration:none;
+ }
+ .menu-btn li{
+     display: inline;
+     color: rgb(94, 94, 94);
+     background-color:rgba(255, 255, 255, 0);
+     border: none;
+     font-family: 微軟正黑體;
+     font-size: 20px;
+     padding: 10px;
+ }
+ .menu-btn li:hover{
+    color: #BA9D58;
+    font-weight: bold;
+}
+ .search-shop{
+    display: flex;
+    align-items: center;
+    /* background-color: tomato; */
+    margin-right: 20px;
+ }
+ .search-product input#search{
+    width: 250px;
+    height: 30px;
+    background: #e2e2e2;
+    border: none;
+    font-size: 12pt;
+    font-family: 微軟正黑體;
+    color: #ffffff;
+    padding-left: 45px;
+    border-radius: 50px;
+  }
+  .search-product .icon{
+    position: absolute;
+    top: 44%;
+    margin-left: 17px;
+    margin-top: 17px;
+    z-index: 1;
+    color: #ffffff;
+  }
+  .search-shop img{
+    height: 40px;
+    padding-left: 10px;
+  }
+  .banner{
+     padding-top: 115px; 
+  }
+  .banner img{
+      width: 100%;
+      display: block;
+  }
+  .popular{
+    background-image: url(../pic/cat_bg.png);
+    background-size: cover;
+    height: 620px;
+
+  }
+  .popular h1{
+     text-align: center;
+     font-size: 60px;
+     color: #463728;
+     font-family: 微軟正黑體;
+     font-weight: bold;
+     padding-top: 63.5px;
+  }
+  .prd-circle{
+      width: 400px;
+      height: 400px;
+      background-color:#F2F2F2;
+      border-radius: 50%;
+      box-shadow: 0 0 10px rgba(156, 156, 156, 0.774);
+      margin: auto;
+      margin-top: 50px;
+      z-index: 2;
+  }
+  .prd-circle .puppy_combination{
+      padding-top: 50px;
+      padding-left: 30px;
+      height: 270px;
+  }
+  .prd-circle p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    color: #7a7a7a;
+  }
+  .semicircle{
+      position: relative;
+      background-color: rgba(130, 132, 238, 0);
+      top:-200px;
+      display: flex;
+      justify-content: center;
+  }
+  .semicircle_line{
+      height: 300px;
+  }
+  .yellow-circle-cat{
+      height: 100px;
+      width: 100px;
+      background-color: #F2D065;
+      border-radius: 50%;
+      position:absolute;
+      right: 430px;
+      bottom: 220px;
+      box-shadow:  0 8px 10px rgba(156, 156, 156, 0.959);
+      z-index: 0;
+  }
+  .yellow-circle-cat:hover{
+    bottom: 210px;
+    box-shadow:  0 0 10px rgba(156, 156, 156, 0.959);
+  }
+  .yellow-circle-dog{
+    height: 100px;
+    width: 100px;
+    background-color: #F2D065;
+    border-radius: 50%;
+    position:absolute;
+    left:430px;
+    bottom: 220px;
+    box-shadow:  0 8px 10px rgba(156, 156, 156, 0.959);
+    z-index: 0;
+}
+.yellow-circle-dog:hover{
+    bottom: 210px;
+    box-shadow:  0 0 10px rgba(156, 156, 156, 0.959);
+}
+.yellow-circle-cat img{
+    position:absolute;
+    padding-top: 0px;
+    padding-left: 12px;
+    z-index: 1;
+    height: 75px;
+}
+.yellow-circle-cat p{
+    position:absolute;
+    z-index: 1;
+    font-size: 15px;
+    bottom:15px;
+    left: 20px;
+    color: white;
+    font-weight: 900;
+}
+.yellow-circle-dog img{
+    position:absolute;
+    padding-top: 10px;
+    padding-left: 25px;
+    z-index: 1;
+    height: 55px;
+}
+.yellow-circle-dog p{
+    position:absolute;
+    z-index: 1;
+    font-size: 15px;
+    bottom:15px;
+    left: 20px;
+    color: white;
+    font-weight: 900;
+}
+.green-circle-cat{
+    height: 100px;
+    width: 100px;
+    background-color: #A9C394;
+    border-radius: 50%;
+    position:absolute;
+    right:480px;
+    bottom: 70px;
+    box-shadow:  0 8px 10px rgba(156, 156, 156, 0.959);
+    z-index: 0;
+}
+.green-circle-cat:hover{
+    bottom: 60px;
+    box-shadow:  0 0 10px rgba(156, 156, 156, 0.959);
+}
+.green-circle-cat img{
+    position:absolute;
+    padding-top: 3px;
+    padding-left: 18px;
+    z-index: 1;
+    height: 65px;
+}
+.green-circle-cat p{
+    position:absolute;
+    z-index: 1;
+    font-size: 15px;
+    bottom:15px;
+    left: 12px;
+    color: white;
+    font-weight: 900;
+}
+.green-circle-dog{
+    height: 100px;
+    width: 100px;
+    background-color: #A9C394;
+    border-radius: 50%;
+    position:absolute;
+    left :480px;
+    bottom: 70px;
+    box-shadow:  0 8px 10px rgba(156, 156, 156, 0.959);
+    z-index: 0;
+}
+.green-circle-dog:hover{
+    bottom: 60px;
+    box-shadow:  0 0 10px rgba(156, 156, 156, 0.959);
+}
+.green-circle-dog img{
+    position:absolute;
+    padding-top: 5px;
+    padding-left: 10px;
+    z-index: 1;
+    height: 80px;
+}
+.green-circle-dog p{
+    position:absolute;
+    z-index: 1;
+    font-size: 15px;
+    bottom:15px;
+    left: 12px;
+    color: white;
+    font-weight: 900;
+}
+.blue-circle-cat{
+    height: 100px;
+    width: 100px;
+    background-color: #8CCAD9;
+    border-radius: 50%;
+    position:absolute;
+    right:615px;
+    bottom:-20px;
+    box-shadow:  0 8px 10px rgba(156, 156, 156, 0.959);
+    z-index: 0;
+}
+.blue-circle-cat:hover{
+    bottom: -30px;
+    box-shadow:  0 0 10px rgba(156, 156, 156, 0.959);
+}
+.blue-circle-cat img{
+    position:absolute;
+    padding-top: 0px;
+    padding-left: 15px;
+    z-index: 1;
+    height: 75px;
+}
+.blue-circle-cat p{
+    position:absolute;
+    z-index: 1;
+    font-size: 15px;
+    bottom:15px;
+    left: 12px;
+    color: white;
+    font-weight: 900;
+}
+.blue-circle-dog{
+    height: 100px;
+    width: 100px;
+    background-color: #8CCAD9;
+    border-radius: 50%;
+    position:absolute;
+    left:615px;
+    bottom:-20px;
+    box-shadow:  0 8px 10px rgba(156, 156, 156, 0.959);
+    z-index: 0;
+}
+.blue-circle-dog:hover{
+    bottom: -30px;
+    box-shadow:  0 0 10px rgba(156, 156, 156, 0.959);
+}
+.blue-circle-dog img{
+    position:absolute;
+    padding-top: 0px;
+    padding-left: 12px;
+    z-index: 1;
+    height: 78px;
+}
+.blue-circle-dog p{
+    position:absolute;
+    z-index: 1;
+    font-size: 15px;
+    bottom:15px;
+    left: 12px;
+    color: white;
+    font-weight: 900;
+}
+.conten-bg{
+    background-image:url(../pic/bg.png);
+    background-size: cover;
+    height: 2500px;
+    margin-top: 150px;
+}
+.health-check-dog-title{
+    display: flex; 
+    justify-content: center;
+}
+.health-check-dog-title img{
+    height: 90px;
+    margin-top:180px ;
+}
+.health-check-dog-title h1{
+    font-size: 60px;
+    color: #463728;
+    font-family: 微軟正黑體;
+    font-weight: bold;
+    padding-top: 210px;
+ }
+ .health-check-dog-item{
+     /* background-color: rgb(16, 206, 133); */
+     margin-top: 80px;
+     display: flex;
+     justify-content: center;
+ }
+ .health-introduction-dog{
+     height: 450px;
+     width: 450px;
+     border-radius: 50%;
+     background-color: white;
+     margin-top: -30px;
+     position: relative;
+     left: 40px;
+     box-shadow:  0 0px 10px rgba(156, 156, 156, 0.61);
+ }
+ .health-introduction-tx{
+     /* background-color: rgba(128, 50, 50, 0.199); */
+     text-align: center;
+     position: relative;
+     left: 50px;
+     top: 30px;
+     width: 350px;
+     font-size: 16px;
+     line-height: 30px;
+     color: #7a7a7a;
+  
+ }
+ .health-introduction-dog h2{
+     font-size: 50px;
+     font-weight: 800;
+     text-align: center;
+     padding-top: 70px;
+     color: #4e4e4e;
+ }
+
+ .health-check-dog-item img{
+   height: 450px;
+ }
+ .health-btn{
+     width: 230px;
+     height: 55px;
+     border-radius: 10px;
+     border: none;
+     background-color: #BA9D58;
+     font-size: 34.5px;
+     font-weight: 500;
+     color: white;
+     margin-left: 340px;
+     box-shadow:  0 3px 5px rgba(102, 102, 102, 0.849);
+ }
+ .dog-run-pic{
+     height: 200px;
+     position: relative;
+     left: 1030px;
+ }
+ .dotted-line{
+     width: 100%;
+     position: relative;
+     top:-150px;
+ }
+.health-check-cat-title{
+    display: flex; 
+    justify-content: center;
+    position: relative;
+    top: -100px;
+}
+.health-check-cat-title img{
+    height: 90px;
+}
+.health-check-cat-title h1{
+    font-size: 60px;
+    color: #463728;
+    font-family: 微軟正黑體;
+    font-weight: bold;
+   padding-top: 20px;
+ }
+ .health-check-cat-item{
+    /* background-color: rgb(16, 206, 133); */
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+    /* background-color: yellow; */
+}
+.health-introduction-cat{
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: -30px;
+    position: relative;
+    right:70px;
+    box-shadow:  0 0px 10px rgba(156, 156, 156, 0.61);
+}
+.health-introduction-cat h2{
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 70px;
+    color: #4e4e4e;
+}
+.health-check-cat-item img{
+    height: 450px;
+  }
+.move-btn{
+    position: relative;
+    left: 565px;
+    top: -200px;
+}
+.cat-run-pic{
+    height: 250px;
+    position: relative;
+    right: 500px;
+    top: 30px;
+}
+.dotted-line-contrast{
+    width: 100%;
+    position: relative;
+    top:-120px;
+}
+/* footer */
+footer {
+    background-color: #8a6f58;
+    position: relative;
+}
+
+footer::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 6px;
+    top: -3px;
+    border-top: 6px dotted #ba9d58;
+}
+
+footer::after {
+    content: '';
+    display: block;
+    background-image: url('../pic/feet.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.top-wrap {
+    padding: 30px 0;
+    display: flex;
+}
+
+.left-wrap {
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo {
+    width: 170px;
+}
+
+.footer-logo img {
+    width: 100%;
+}
+
+.about-wrap {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.about-wrap a {
+    text-decoration: none;
+    color: white;
+    line-height: 2;
+}
+
+.right-wrap {
+    flex-grow: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-wrap::before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 80%;
+    width: 2px;
+    background-color: white;
+    left: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.right-wrap p {
+    line-height: 1.5;
+    color: white;
+}
+
+.contact-us {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.about-detail-wrap {
+    background-color: #8a6f58;
+    border-top: 2px solid white;
+    padding: 30px 0;
+}
+
+.about-detail-wrap p {
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    line-height: 1.5;
+}

@@ -1,0 +1,407 @@
+a{
+    text-decoration:none;
+}
+nav{
+    position: fixed;  
+    width: 100% ;
+    z-index: 1000;
+    box-shadow:  0px 0px 10px rgb(146, 146, 146);
+}
+.navbar-wrap{
+    width: 100%;
+    height: 36px;
+    background-color:  rgb(161, 113, 101);
+    display: flex;
+    justify-content:flex-end;   
+    align-items: center;
+}
+.navbar-item{
+    display: flex;
+    color: white;
+    font-size: 15px;
+    font-family: 微軟正黑體;
+    margin-right: 48px;
+    text-align: center;
+    align-items: center;
+    /* background-color: rgb(173, 12, 12); */
+}
+.navbar-item p{
+   padding-right: 24px;
+}
+.Sign-in button{
+    border: 1.5px solid white;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+ }
+ .menu-wrap{
+     background-color:white;
+     width: 100%;
+     height: 80px;
+     display: flex;
+     align-items: center;
+     justify-content:space-between;
+ }
+ .menu-item{
+    display: flex;
+    align-items: center;
+ }
+ .menu-wrap img{
+     height: 70px;
+     padding-left: 50px;
+     padding-right: 30px;
+ }
+ .menu-wrap a{
+    text-decoration:none;
+ }
+ .menu-btn li{
+     display: inline;
+     color: rgb(94, 94, 94);
+     background-color:rgba(255, 255, 255, 0);
+     border: none;
+     font-family: 微軟正黑體;
+     font-size: 20px;
+     padding: 10px;
+ }
+ .menu-btn li:hover{
+    color: #BA9D58;
+    font-weight: bold;
+}
+ .search-shop{
+    display: flex;
+    align-items: center;
+    /* background-color: tomato; */
+    margin-right: 20px;
+ }
+ .search-product input#search{
+    width: 250px;
+    height: 30px;
+    background: #e2e2e2;
+    border: none;
+    font-size: 12pt;
+    font-family: 微軟正黑體;
+    color: #ffffff;
+    padding-left: 45px;
+    border-radius: 50px;
+  }
+  .search-product .icon{
+    position: absolute;
+    top: 44%;
+    margin-left: 17px;
+    margin-top: 17px;
+    z-index: 1;
+    color: #ffffff;
+  }
+  .search-shop img{
+    height: 40px;
+    padding-left: 10px;
+  }
+/* ------------------------------------- */
+.content-wrap {
+    width: 100%;
+    background-color: #FCF5E6;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 116px;
+    box-sizing: border-box;
+    position: relative;
+}
+.product-box{
+    display: flex;
+    justify-content:space-evenly
+}
+
+.product-pic-wrap{
+    margin-top: 15px;
+    display: flex;
+    margin-left: 150px;
+    /* background-color: blueviolet; */
+}
+.product-pic-wrap img{
+    height: 500px;
+}
+.product-pic-item{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.product-pic-item img{
+    height: 100px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow:  0 5px 5px rgba(102, 102, 102, 0.849);;
+}
+.product-choose-wrap{
+    width: 500px;
+    margin-top: 30px;
+    margin-right: 150px;
+    /* background-color: rgb(43, 226, 113); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product-choose-wrap h1{
+    font-size: 40px;
+    color: #463728;
+    margin-top: 30px;
+    margin-right: 120px;
+    font-family: 微軟正黑體;
+    font-weight: 800;
+}
+.introduction{
+    font-size: 18px;
+    line-height: 30px;
+    color: #463728;
+    margin-top: 20px;
+    font-family: 微軟正黑體;
+    font-weight: 500;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.money{
+    font-size: 40px;
+    font-family: 微軟正黑體;
+    font-weight:400;
+    color: rgb(202, 5, 5);
+    margin-left: -350px;
+}
+.product-taste-item {
+    /* background-color: brown; */
+    margin-top: 40px;
+    margin-left: -150px;
+}
+.product-taste-item button{
+    width: 120px;
+    font-size: 18px;
+    border-radius: 3px;
+    margin-right: 20px;
+    border: 2px solid rgb(175, 175, 175);
+    background-color:  rgb(255, 255, 255);
+    color: rgb(128, 128, 128);
+ }
+ .buy{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #bf9c4b;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    margin-right: -270px;
+    margin-top: 120px;
+    box-shadow:  0 3px 5px rgba(102, 102, 102, 0.849);
+ }
+ hr{
+    height: 2px;
+    margin-top: 20px;    
+    background-color: #bf9c4b;
+ }
+ /* ------------------------------------------ */
+ .product-wrap{   
+    margin-top: 60px;
+    position: absolute;
+    margin-left: 41.5%;
+}
+.product-tittle{
+    width: 250px;
+    height: 50px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+    box-shadow:  0px 0px 10px rgb(146, 146, 146);
+}
+.product-tittle h3{
+    color: rgb(138, 138, 138);
+    font-size: 25px;
+}
+ .product-item{
+    width: 70%;
+    height: 450px;
+    margin: auto;
+    margin-top: 75px;
+   
+    box-shadow:  0px 0px 10px rgb(180, 180, 180);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .cat-product-card-box{
+     /* background-color: red; */
+     width: 250px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ .cat-product-card{
+     width: 250px;
+     height: 320px;
+     background-color: white;
+     border-radius: 10px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 60px;
+     box-shadow:  0px 0px 10px rgb(146, 146, 146);
+ }
+ .cat-product-card img{
+     width: 200px;
+     margin-top: 22px;
+ }
+ .cat-product-card h4::before{
+     content: '';
+     display: block;
+     width: 210px;
+     height: 2.5px;
+     margin-bottom: 10px;
+     margin-top: 10px;
+     background-color: #cfcfcf;
+ }
+ .cat-product-card h4{
+     font-size: 16px;
+     letter-spacing: 3px;
+     text-align: center;
+ }
+ .price{
+     font-size: 30px;
+     font-family: 微軟正黑體;
+     font-weight: bold;
+     color: rgb(202, 5, 5);
+     margin: 5px 0 0 0;
+ }
+ .read-more {
+     font-size: 16px;
+     color:  #7ca4d1;
+     margin-left: 150px;
+     margin-top: 3px;
+     font-family: 為轉正黑體;
+ }
+ .btn-box{
+    width: 120px;
+    height: 30px;
+    margin-top: 18px;
+ }
+ .btn-box button{
+    width: 120px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(197, 197, 197);
+    color: white;
+    box-shadow: 0px 5px 5px rgb(182, 182, 182);
+ }
+ .btn-box button:hover {
+    background-color: #BA9D58;
+    margin-top: 3px;
+    box-shadow: 0px 0px 5px rgb(182, 182, 182);
+}
+/* footer */
+footer {
+    background-color: #8a6f58;
+    position: relative;
+    margin-top: 80px;
+}
+
+footer::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 6px;
+    top: -3px;
+    border-top: 6px dotted #ba9d58;
+}
+
+footer::after {
+    content: '';
+    display: block;
+    background-image: url('../pic/feet.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.top-wrap {
+    padding: 30px 0;
+    display: flex;
+}
+
+.left-wrap {
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo {
+    width: 170px;
+}
+
+.footer-logo img {
+    width: 100%;
+}
+
+.about-wrap {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.about-wrap a {
+    text-decoration: none;
+    color: white;
+    line-height: 2;
+}
+
+.right-wrap {
+    flex-grow: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-wrap::before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 80%;
+    width: 2px;
+    background-color: white;
+    left: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.right-wrap p {
+    line-height: 1.5;
+    color: white;
+}
+
+.contact-us {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.about-detail-wrap {
+    background-color: #8a6f58;
+    border-top: 2px solid white;
+    padding: 30px 0;
+}
+
+.about-detail-wrap p {
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    line-height: 1.5;
+}
