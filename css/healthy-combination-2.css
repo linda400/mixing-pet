@@ -188,7 +188,6 @@ nav {
 .content-wrap {
     width: 100%;
     background-image: url('../pic/bg-pic.png');
-    background-repeat: no-repeat;
     background-size: cover;
     padding-top: 116px;
     box-sizing: border-box;

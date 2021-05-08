@@ -187,9 +187,9 @@ nav {
 /* ------------------ */
 .content-wrap {
     width: 100%;
-    background-image: url('../pic/product-bg.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url('../pic/bg-pic.png');
+    background-position: center;
+    background-size: 100%;
     padding-top: 116px;
     box-sizing: border-box;
     position: relative;
@@ -208,7 +208,7 @@ nav {
     width: 75px;
     height: 50px;
     background-image: url('../pic/cloud-1.png');
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: 100%;
 }
 
@@ -244,7 +244,8 @@ h2 {
     max-width: 700px;
     height: 370px;
     position: relative;
-    border: ;
+   /* border: 3px solid black; */
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.425);
 }
 
 .options-card::before {
