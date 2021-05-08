@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/about-us.css">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
+
 <body>
     <nav>
         <div class="navbar-wrap">
             <div class="navbar-item">
                 <p>跟好友分享,立即領50元</p>
-                <div class="Sign-in">
+                <div class="sign-in">
                     <button>登入/註冊</button>
                 </div>
             </div>
@@ -22,67 +22,71 @@
         <div class="menu-wrap">
             <div class="menu-item">
                 <a href="index.html">
-                    <img src="pic/mixing-pet.png">
+                    <img class="logo" src="pic/mixing-pet.png">
                 </a>
+            </div>
+            <div class="search-product">
+                <button class="icon"><i class="fa fa-search"></i></button>
+                <input type="search" id="search" placeholder="搜尋產品" />
+            </div>
+            <div class="menu-btn-wrap">
                 <ul class="menu-btn">
-                    <a href="healthy-combination.html">
-                        <li>健康組合諮詢</li>
-                    </a>
-                    <a href="dog-product.html">
-                        <li>汪星人專區</li>
-                    </a>
-                    <a href="dog-product.html">
-                        <li>喵行人專區</li>
-                    </a>
-                    <a href="about-us.html">
-                        <li> 關於mixing pet </li>
-                    </a>
+                  
+                        <li><a href="healthy-combination.html">健康食品諮詢 </a></li>
+                   
+                   
+                        <li> <a href="dog-product.html">汪星人專區 </a></li>
+                   
+                   
+                        <li> <a href="dog-product.html">喵行人專區 </a></li>
+                   
+                   
+                        <li> <a href="about-us.html">關於mixing pet   </a></li>
+                  
                 </ul>
             </div>
-            <div class="search-shop">
-                <div class="search-product">
-                    <span class="icon"><i class="fa fa-search"></i></span>
-                    <input type="search" id="search" placeholder="搜尋產品" />
-                </div>
-                <a href="checkout.html">
-                    <img src="pic/shop_car.png" alt="">
-                </a>
+            <div class="shopping-cart">
+                <img src="pic/icon/cart.png" alt="">
             </div>
+            <div class="hamburger">
+                <button id="hamburger_bt"><img src="pic/icon/menu.png"></button>
+                <ul id="hamburger_menu">
+                    <li><a href="#">健康食品諮詢</a></li>
+                    <li><a href="#">汪星人專區</a></li>
+                    <li><a href="#">喵星人專區</a></li>
+                    <li><a href="#">關於mixing pet</a></li>
+                </ul>
+            </div>
+            
         </div>
+        
     </nav>
-    <div class="content-wrap">
-        <div class="icon">
-           <img src="pic/mixing-pet.png" alt="">
-        </div>
-        <div class="purpose-wrap">
-            <div class="purpose-text">
-                <h2>創立宗旨</h2>
-                <p>我們每個人都有自己的健康道路，在這旅途中, 您吃什麼是非常重要的。食物並不僅僅可以維持我們的能量，更可以滿足我們的心靈與保護我們的身體。在我們家族當中，適當的營養是每個人保持健康的基石，當然也包括我們的狗狗和貓貓。</p>
-            </div>
-            <img src="pic/purpose.png" alt="">
-        </div>
-        <div class="pet-health-wrap">
-            <img src="pic/pet-health.jpg" alt="">
-            <div class="pet-health-text">
-                <h2>寵物健康重要性</h2>
-                <p>狗狗和貓貓和我們人類一樣需要注意健康飲食,這進而影響寵物壽命,當毛孩子生病時相信毛爸媽都是心急如焚,所以在平常就必須從毛孩的飲食下手,補充毛寶貝所需的營養。</p>
-            </div>
-        </div>
-    </div> 
-    <div class="goal-wrap">
-        <div class="goal-item">
-            <h2>我們的目標</h2>
-                <p>mixing pet 希望可以透過飼主對寵物的瞭解進行問答分析,提供最適合您寵物食用的食品,補充寵物最需要的影響,也降低飼主在挑選食品時的困難度!</p>
-            </div>
-        </div>
-    </div>   
+    <section id="section01" class="demo">
+            <img class="icon-head" src="pic/mixing-pet-w.png" alt="">
+            <p>每個人都有自己的健康道路， 您吃什麼是非常重要的。食物並不僅僅可以維持我們的能量，更可以滿足我們的心靈與保護我們的身體。適當的營養是每個人保持健康的基石，當然也包括我們的寵物。</p>
+        <a href="#section02"><span></span>Scroll</a>
+    </section>
+    <section id="section02" class="demo">
+        <h1>寵物健康重要性</h1>
+        <p>每個人都有自己的健康道路， 您吃什麼是非常重要的。食物並不僅僅可以維持我們的能量，更可以滿足我們的心靈與保護我們的身體。適當的營養是每個人保持健康的基石，當然也包括我們的寵物。</p>
+        <a href="#thanks"><span></span>Scroll</a>
+    </section>
+   
+    <section id="thanks">
+        <div class="black-wrap">
+            <h1 class="tittle-move">我們的目標</h1>
+            <p  class="move-top">mixing pet 希望可以透過飼主對寵物的瞭解進行問答分析,提供最適合您寵物食用的食品,補充寵物最需要的影響,也降低飼主在挑選食品時的困難度!</p>
+        </div>  
+            
+    </section>
+
     <footer>
         <div class="top-wrap">
             <div class="left-wrap">
                 <div class="footer-logo">
-                    <img src="./pic/mixing-pet-white.png" alt="">
+                    <img src="pic/mixing-pet-w.png" alt="">
                 </div>
-                <div class="about-wrap">                
+                <div class="about-wrap">
                     <a href="healthy-combination.html">健康組合諮詢</a>
                     <a href="dog-product.html">汪星人專區</a>
                     <a href="dog-product.html">喵星人專區</a>
@@ -105,5 +109,9 @@
         </div>
 
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/about-us.js"></script>
 </body>
+
 </html>
