@@ -148,6 +148,12 @@ nav {
     font-family: 微軟正黑體;
 }
 
+#hamburger_menu a:hover {
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(255, 196, 0);
+}
+
 .menu-btn-wrap {
     display: none;
 }
@@ -198,7 +204,7 @@ nav {
 }
 
 .content-wrap{
-    background-image: url('../pic/bg-pic.png');
+    background-image: url('../pic/product-bg.jpg');
     background-size: 100%;
     padding-top: 60px;
     /* background-repeat: no-repeat; */
@@ -221,7 +227,6 @@ nav {
     width: 47%;
     max-width: 650px;
     position: absolute;
-    top: -15%;
     left: 6%;
 }
 
@@ -250,7 +255,7 @@ a{
    display: flex;
    justify-content: space-evenly;
    position: relative;
-   border: 3px solid black;
+   border: 3px solid rgb(0, 0, 0);
 }
 
 .product-tittle{
@@ -266,8 +271,8 @@ a{
 }
 .product-tittle h3{
     color: white;
-    font-size: 18px;
-    padding: 0 20px;
+    font-size: 25px;
+    padding: 0 60px;
 }
 
 .pro-all-wrap{
@@ -299,6 +304,8 @@ a{
     margin-top: 40px;
     box-shadow:  0px 0px 10px rgb(146, 146, 146);
 }
+
+
 .cat-product-card img{
     width: 150px;
     margin-top: 22px;
@@ -332,13 +339,13 @@ a{
     color:  #7ca4d1;
     margin-left: 60%;
     margin-top: 10px;
-    font-family: 為轉正黑體;
+    font-family: 微軟正黑體;
 }
 
 .btn-box {
     width: 120px;
     height: 30px;
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
 .btn-box button {
@@ -475,6 +482,8 @@ footer::after {
     line-height: 1.5;
 }
 
+
+
 /* -----------------------------RWD(768px) */
 @media screen and (min-width: 768px) {
     .hamburger {
@@ -529,6 +538,11 @@ footer::after {
     .menu-btn a:hover {
         color: #BA9D58;
         font-weight: bold;
+    }
+
+    .menu-btn .page-color a{ 
+        color: #BA9D58;
+        font-weight: 800;
     }
 
     .page-title-wrap {
@@ -588,6 +602,11 @@ footer::after {
     .product-item{  
         border: 3.5px solid black;
      }
+
+     .cat-product-card:hover{
+        border: 3px solid black;
+        transform: scale(1.1);
+    }
 }
 
 
@@ -600,4 +619,9 @@ footer::after {
     .product-item{  
         border: 5px solid black;
      }
+
+     .cat-product-card:hover{
+        border: 4px solid black;
+        transform: scale(1.1);
+    }
 }

@@ -15,3 +15,11 @@ hamburger_bt.addEventListener('click', function (e) {
    
 
 }, false);
+// ----------------------------------------
+let cancelled_bt = document.getElementById('cancelled_bt');
+cancelled_bt.addEventListener('click', function (e) {
+
+    document.getElementById("light_box").classList.remove("enlarge");
+    document.getElementById("light_box").classList.add("cancelled");
+
+});

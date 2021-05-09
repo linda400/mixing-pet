@@ -606,6 +606,11 @@ footer::after {
         width: 55px;
         height: 55px;
     }
+    .menu-btn .page-color a{ 
+        color: #BA9D58;
+        font-weight: 800;
+    }
+
 
 }
 /* -----------------------RWD(992px) */

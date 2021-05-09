@@ -148,10 +148,15 @@ nav {
     font-family: 微軟正黑體;
 }
 
+#hamburger_menu a:hover {
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(255, 196, 0);
+}
+
 .menu-btn-wrap {
     display: none;
 }
-
 /* -----------------nav animation */
 .active {
     display: block !important;
@@ -281,9 +286,9 @@ h2 {
 
 .btn-item>p {
     margin: 30px;
-    font-size: 20px;
+    font-size: 14px;
     color: #463728;
-
+    font-weight: 800;
 }
 
 .btn-pic-wrap {
@@ -303,6 +308,7 @@ h2 {
     box-shadow: 1px 1px 14px rgba(0, 0, 0, 0.5);
     top: 10px;
 }
+
 
 .next {
     position: absolute;
@@ -548,6 +554,14 @@ footer::after {
         top: 50%;
         width: 55px;
         height: 55px;
+    }
+    .btn-item>p {
+        font-size: 20px;
+      
+    }
+    .menu-btn .page-color a{ 
+        color: #BA9D58;
+        font-weight: 800;
     }
 
 }

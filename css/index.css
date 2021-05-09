@@ -148,6 +148,13 @@ nav {
     font-family: 微軟正黑體;
 }
 
+#hamburger_menu a:hover {
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(255, 196, 0);
+}
+
+
 .menu-btn-wrap {
     display: none;
 }
@@ -293,12 +300,12 @@ h1 {
 .next {
     position: absolute;
     z-index: 1;
-    margin-left: 309px;
+    margin-left: 75%;
     bottom: 200px;
     border: none;
     background-color: rgba(0, 0, 0, 0);
     color: rgb(88, 88, 88);
-    font-size: 20px;
+    font-size: 16px;
     outline: none;
     cursor: pointer;
     border-bottom: 3px solid;
@@ -339,7 +346,7 @@ h1 {
 
 .young-btn {
     position: relative;
-    width: 25%;
+    width: 27%;
     height: 3em;
     border-radius: 5px;
     bottom: 25px;
@@ -362,7 +369,7 @@ h1 {
 .young-btn p {
     box-sizing: border-box;
     margin: auto;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
     color: white;
 }
@@ -376,7 +383,7 @@ h1 {
 .middle-btn {
     position: relative;
     left: 1em;
-    width: 25%;
+    width: 27%;
     height: 3em;
     border-radius: 5px;
     bottom: 25px;
@@ -398,7 +405,7 @@ h1 {
 .middle-btn p {
     box-sizing: border-box;
     margin: auto;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
     color: white;
 }
@@ -412,7 +419,7 @@ h1 {
 .old-btn {
     position: relative;
     left: 3em;
-    width: 25%;
+    width: 27%;
     height: 3em;
     border-radius: 5px;
     bottom: 25px;
@@ -434,7 +441,7 @@ h1 {
 .old-btn p {
     box-sizing: border-box;
     margin: auto;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
     color: white;
 }
@@ -621,15 +628,16 @@ h1 {
     text-align: center;
     color: #724d28;
     font-weight: bolder;
-
+    font-size: 12px;
+    padding-top: 10px;
 }
 
 .health-introduction-tx p {
-    padding-top: 8px;
+    padding-top: 3px;
     text-align: center;
     color: rgb(83, 83, 83);
     font-size: 1px;
-    line-height: 20px;
+    line-height: 15px;
 }
 
 .choose-wrap {
@@ -883,9 +891,9 @@ footer::after {
     display: block;
     position: absolute;
     height: 80%;
-    width: 2px;
+    width: 1.5px;
     background-color: white;
-    left: -20px;
+    left: -6px;
     top: 50%;
     transform: translateY(-50%);
 }

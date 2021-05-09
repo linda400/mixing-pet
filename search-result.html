@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,9 +9,24 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/search-result.css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animation.css" rel="stylesheet">
+
 
 </head>
+
 <body>
+
+    <div class="light-box enlarge" id="light_box">
+        <div class="light-text">
+            <h1>結果</h1> 
+            <p>您的貓寶貝目前有『牙口較不好』且『腸胃較差』的問題,快來看看我們推薦的商品吧!</p>
+        </div>
+        <img  src="pic/light-box-pic.png" alt="">
+        <button class="cancelled-bt" id="cancelled_bt">
+            <img src="pic/cancelled.png" alt="">
+        </button>
+    </div>
+    <!-- --------------------- -->
     <nav>
         <div class="navbar-wrap">
             <div class="navbar-item">
@@ -32,18 +48,18 @@
             </div>
             <div class="menu-btn-wrap">
                 <ul class="menu-btn">
-                  
-                        <li><a href="healthy-combination.html">健康食品諮詢 </a></li>
-                   
-                   
-                        <li> <a href="dog-product.html">汪星人專區 </a></li>
-                   
-                   
-                        <li> <a href="dog-product.html">喵行人專區 </a></li>
-                   
-                   
-                        <li> <a href="about-us.html">關於mixing pet   </a></li>
-                  
+
+                    <li class="page-color"><a href="healthy-combination.html">健康食品諮詢 </a></li>
+
+
+                    <li> <a href="dog-product.html">汪星人專區 </a></li>
+
+
+                    <li> <a href="cat-product.html">喵行人專區 </a></li>
+
+
+                    <li> <a href="about-us.html">關於mixing pet </a></li>
+
                 </ul>
             </div>
             <div class="shopping-cart">
@@ -52,152 +68,185 @@
             <div class="hamburger">
                 <button id="hamburger_bt"><img src="pic/icon/menu.png"></button>
                 <ul id="hamburger_menu">
-                    <li><a href="#">健康食品諮詢</a></li>
-                    <li><a href="#">汪星人專區</a></li>
-                    <li><a href="#">喵星人專區</a></li>
-                    <li><a href="#">關於mixing pet</a></li>
+                    <li><a href="healthy-combination.html">健康食品諮詢</a></li>
+                    <li><a href="dog-product.html">汪星人專區</a></li>
+                    <li><a href="cat-product.html">喵星人專區</a></li>
+                    <li><a href="about-us.html">關於mixing pet</a></li>
                 </ul>
             </div>
-            
+
         </div>
     </nav>
     <!-- ---------------------------------- -->
-   <div class="banner">
-       <img src="pic/banner-bg-cat.jpg" alt="">
-   </div>
-   <div class="content-wrap">
-    <div class="page-title-wrap">
-        <h1>健康食品一把罩</h1>
-    </div>
-    <div class="result-tittle">
-        <img src="pic/old-cat.png" alt="">
-        <div class="result-text">
-            <h2>結果</h2>
-            <p>您的貓咪<span>牙口較差</span>，<span>腎臟功能較不好</span>。根據您的表單我們已經為您挑選適合您的寵物食品囉!快來選購吧!</p>
+    <div class="content-wrap">
+        <div class="banner">
+            <div class="banner-head-wrap">
+                <div class="logo-box">
+                    <img src="pic/mixing-pet-w.png" alt="">
+                </div>
+                <img src="pic/search-head-bg.jpg" alt="">
+                <div class="search-head-cat">
+                    <img src="pic/search-head-cat.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="tittle-wrap">
+            <h1>結果</h1>
+            <img src="pic/tittle-line.png" alt="">
+
+            <div class="result-wrap animate__animated animate__headShake animate__infinite">
+                <div class="cat-tooth"> <img src="pic/cat-tooth.png" alt="">
+                <p>牙口不好</p>
+            </div>
+
+            <div class="cat-belly">
+                    <img src="pic/cat-belly.png" alt="">
+                    <p>腸胃不好</p>
+            </div>
+
+            </div>
         </div>
     </div>
 
-       
-    <div class="product-item">
-        <div class="product-tittle">
-            <h3>給牙口不好的毛寶貝</h3>
+    <div class="product-wrap">
+        <div class="product-item">
+            <div class="product-tittle">
+                <h3>給牙口不好的毛寶貝</h3>
+            </div>
+            <div class="pro-all-wrap">
+                <div class="cat-product-card-box">
+                    <a href="product-description.html">
+                        <div class="cat-product-card">
+                            <div class="crown animate__animated animate__pulse
+                            animate__infinite">
+                                <img src="pic/crown.png" alt="">
+                            </div>                        
+                            <img src="pic/product/AixiA-1.png" alt="">
+                            <h4>妙喵高含水軟飼料</h4>
+                            <p class="price">$465</p>
+                            <p class="read-more">read more...</p>
+                        </div>
+                    </a>
+                    <div class="btn-box">
+                        <button>加入購物車</button>
+                    </div>
+                </div>
+                <div class="cat-product-card-box">
+                    <a href="product-description.html">                      
+                        <div class="cat-product-card">
+                            <img src="pic/product/Canned.png" alt="">
+                            <h4>妙喵高含水軟飼料</h4>
+                            <p class="price">$465</p>
+                            <p class="read-more">read more...</p>
+                        </div>
+                    </a>
+                    <div class="btn-box">
+                        <button>加入購物車</button>
+                    </div>
+                </div>
+                <div class="cat-product-card-box">
+                    <a href="product-description.html">
+                        <div class="cat-product-card">
+                            <img src="pic/product/AixiA-1.png" alt="">
+                            <h4>妙喵高含水軟飼料</h4>
+                            <p class="price">$465</p>
+                            <p class="read-more">read more...</p>
+                        </div>
+                    </a>
+                    <div class="btn-box">
+                        <button>加入購物車</button>
+                    </div>
+                </div>
+                <div class="cat-product-card-box">
+                    <a href="product-description.html">
+                        <div class="cat-product-card">
+                            <div class="crown animate__animated animate__pulse
+                            animate__infinite">
+                                <img src="pic/crown.png" alt="">
+                            </div>   
+                            <img src="pic/product/Canned.png" alt="">
+                            <h4>妙喵高含水軟飼料</h4>
+                            <p class="price">$465</p>
+                            <p class="read-more">read more...</p>
+                        </div>
+                    </a>
+                    <div class="btn-box">
+                        <button>加入購物車</button>
+                    </div>
+                </div>
+            </div>
+            
         </div>
-        <div class="pro-all-wrap">
-            <div class="cat-product-card-box">
-                <a href="product-description.html">
-                    <div class="cat-product-card">
-                        <img src="pic/product/AixiA-1.png" alt="">
-                        <h4>妙喵高含水軟飼料</h4>
-                        <p class="price">$465</p>
-                        <p class="read-more">read more...</p>
-                    </div>
-                </a>
-                <div class="btn-box">
-                    <button>加入購物車</button>
-                </div>
-            </div>
-            <div class="cat-product-card-box">
-                <a href="product-description.html">
-                    <div class="cat-product-card">
-                        <img src="pic/product/Canned.png" alt="">
-                        <h4>妙喵高含水軟飼料</h4>
-                        <p class="price">$465</p>
-                        <p class="read-more">read more...</p>
-                    </div>
-                </a>
-                <div class="btn-box">
-                    <button>加入購物車</button>
-                </div>
-            </div>
-            <div class="cat-product-card-box">
-                <a href="product-description.html">
-                    <div class="cat-product-card">
-                        <img src="pic/product/AixiA-1.png" alt="">
-                        <h4>妙喵高含水軟飼料</h4>
-                        <p class="price">$465</p>
-                        <p class="read-more">read more...</p>
-                    </div>
-                </a>
-                <div class="btn-box">
-                    <button>加入購物車</button>
-                </div>
-            </div>
-            <div class="cat-product-card-box">
-                <a href="product-description.html">
-                    <div class="cat-product-card">
-                        <img src="pic/product/Canned.png" alt="">
-                        <h4>妙喵高含水軟飼料</h4>
-                        <p class="price">$465</p>
-                        <p class="read-more">read more...</p>
-                    </div>
-                </a>
-                <div class="btn-box">
-                    <button>加入購物車</button>
-                </div>
-            </div>
-        </div>
-        
-    </div>
 
-    <div class="product-item move">
-        <div class="product-tittle">
-            <h3>給牙口不好的毛寶貝</h3>
+        <div class="product-item move">
+            <div class="product-tittle">
+                <h3>給腸胃不好的毛寶貝</h3>
+            </div>
+            <div class="pro-all-wrap">
+                <div class="cat-product-card-box">
+                    <a href="product-description.html">
+                        <div class="cat-product-card">
+                            <img src="pic/product/AixiA-1.png" alt="">
+                            <h4>妙喵高含水軟飼料</h4>
+                            <p class="price">$465</p>
+                            <p class="read-more">read more...</p>
+                        </div>
+                    </a>
+                    <div class="btn-box">
+                        <button>加入購物車</button>
+                    </div>
+                </div>
+                <div class="cat-product-card-box">
+                    <a href="product-description.html">
+                        <div class="cat-product-card">
+                            <div class="crown animate__animated animate__pulse
+                            animate__infinite">
+                                <img src="pic/crown.png" alt="">
+                            </div>   
+                            <img src="pic/product/Canned.png" alt="">
+                            <h4>妙喵高含水軟飼料</h4>
+                            <p class="price">$465</p>
+                            <p class="read-more">read more...</p>
+                        </div>
+                    </a>
+                    <div class="btn-box">
+                        <button>加入購物車</button>
+                    </div>
+                </div>
+                <div class="cat-product-card-box">
+                    <a href="product-description.html">
+                        <div class="cat-product-card">
+                            <div class="crown animate__animated animate__pulse
+                            animate__infinite">
+                                <img src="pic/crown.png" alt="">
+                            </div>   
+                            <img src="pic/product/AixiA-1.png" alt="">
+                            <h4>妙喵高含水軟飼料</h4>
+                            <p class="price">$465</p>
+                            <p class="read-more">read more...</p>
+                        </div>
+                    </a>
+                    <div class="btn-box">
+                        <button>加入購物車</button>
+                    </div>
+                </div>
+                <div class="cat-product-card-box">
+                    <a href="product-description.html">
+                        <div class="cat-product-card">
+                            <img src="pic/product/Canned.png" alt="">
+                            <h4>妙喵高含水軟飼料</h4>
+                            <p class="price">$465</p>
+                            <p class="read-more">read more...</p>
+                        </div>
+                    </a>
+                    <div class="btn-box">
+                        <button>加入購物車</button>
+                    </div>
+                </div>
+            </div>
+            
         </div>
-        <div class="pro-all-wrap">
-            <div class="cat-product-card-box">
-                <a href="product-description.html">
-                    <div class="cat-product-card">
-                        <img src="pic/product/AixiA-1.png" alt="">
-                        <h4>妙喵高含水軟飼料</h4>
-                        <p class="price">$465</p>
-                        <p class="read-more">read more...</p>
-                    </div>
-                </a>
-                <div class="btn-box">
-                    <button>加入購物車</button>
-                </div>
-            </div>
-            <div class="cat-product-card-box">
-                <a href="product-description.html">
-                    <div class="cat-product-card">
-                        <img src="pic/product/Canned.png" alt="">
-                        <h4>妙喵高含水軟飼料</h4>
-                        <p class="price">$465</p>
-                        <p class="read-more">read more...</p>
-                    </div>
-                </a>
-                <div class="btn-box">
-                    <button>加入購物車</button>
-                </div>
-            </div>
-            <div class="cat-product-card-box">
-                <a href="product-description.html">
-                    <div class="cat-product-card">
-                        <img src="pic/product/AixiA-1.png" alt="">
-                        <h4>妙喵高含水軟飼料</h4>
-                        <p class="price">$465</p>
-                        <p class="read-more">read more...</p>
-                    </div>
-                </a>
-                <div class="btn-box">
-                    <button>加入購物車</button>
-                </div>
-            </div>
-            <div class="cat-product-card-box">
-                <a href="product-description.html">
-                    <div class="cat-product-card">
-                        <img src="pic/product/Canned.png" alt="">
-                        <h4>妙喵高含水軟飼料</h4>
-                        <p class="price">$465</p>
-                        <p class="read-more">read more...</p>
-                    </div>
-                </a>
-                <div class="btn-box">
-                    <button>加入購物車</button>
-                </div>
-            </div>
-        </div>
-        
     </div>
 
     <footer>
@@ -230,10 +279,12 @@
 
     </footer>
 
-   </div>
- 
+    
+  
+
 
 
     <script src="js/search-result.js"></script>
 </body>
+
 </html>
