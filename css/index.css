@@ -1012,7 +1012,7 @@ footer::after {
 
     .popular-b{
         display: block;
-        height: 900px;
+        height:  900px;
         background-image: url(../pic/cat_bg.png);
         background-size: cover;
     }
