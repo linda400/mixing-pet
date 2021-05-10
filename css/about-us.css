@@ -579,11 +579,12 @@ footer::after {
     section p{
         width: 60%;
     }
-
-    .content-wrap2{
-       left: 60%;
-       transform: translateX(0);
-    }
        
 }
 
+@media screen and (min-width: 1699px) {
+    .content-wrap2{
+        left: 60%;
+        transform: translateX(0);
+     }
+}
