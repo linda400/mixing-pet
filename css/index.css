@@ -891,13 +891,12 @@ footer::after {
     display: block;
     position: absolute;
     height: 80%;
-    width: 1.5px;
+    width: 2px;
     background-color: white;
-    left: -6px;
+    left: -11px;
     top: 50%;
     transform: translateY(-50%);
 }
-
 .right-wrap p {
     line-height: 1.5;
     color: white;
